@@ -142,7 +142,7 @@ divider *= 10;
 while (divider >= 1)
 {
 _putchar((val / divider) + '0');
-val = val % divider;
+val %= divider;
 divider /= 10;
 count++;
 }
