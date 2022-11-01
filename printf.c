@@ -12,7 +12,6 @@
  * @format: var
  * Return: functions return
  */
-
 int _printf(const char *format, ...)
 {
 unsigned int i, count = 0;

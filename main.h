@@ -15,7 +15,6 @@ int print_c(va_list c);
 int print_s(va_list s);
 int print_di(va_list di);
 int (*get_print_func(const char *format))(va_list);
-
 typedef struct printformat
 {
 char *theC;
