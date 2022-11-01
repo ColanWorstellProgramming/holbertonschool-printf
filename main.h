@@ -1,6 +1,5 @@
 #ifndef h
 #define h
-#undef h
 
 #include <unistd.h>
 #include <stdlib.h>
@@ -9,7 +8,6 @@
 #include <limits.h>
 #include <string.h>
 #include <stddef.h>
-
 
 int _printf(const char *format, ...);
 int _putchar(char c);
