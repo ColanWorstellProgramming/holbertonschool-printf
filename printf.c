@@ -141,7 +141,7 @@ divider *= 10;
 }
 while (divider >= 1)
 {
-_putchar((val / divider) + '0');
+_putchar((val / divider) +'0');
 val %= divider;
 divider /= 10;
 count++;
