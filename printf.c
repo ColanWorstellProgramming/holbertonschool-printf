@@ -80,7 +80,7 @@ if (*(print_class[i].theC) == *format)
 break;
 }
 }
-return (print_class[i].s);
+return (print_class[i].z);
 }
 
 /**
