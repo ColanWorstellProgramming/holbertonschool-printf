@@ -57,7 +57,7 @@ return (count);
 }
 
 /**
- * get_print_func | format to a var
+ * get_print_func - | format to a var
  * @format: var
  * Return: var
  */
